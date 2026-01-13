@@ -1,0 +1,1289 @@
+pain_points:
+  sales:
+    - id: sales_leads_low_quality_01
+      text: "Not enough qualified leads"
+      keywords: ["low quality leads", "unqualified", "bad leads", "no fit", "poor pipeline", "non-ICP", "wrong fit", "low intent", "not converting", "wasting time"]
+
+    - id: sales_cold_outreach_dependency_01
+      text: "Relying too much on cold outreach"
+      keywords: ["cold emails", "cold calls", "no response", "low open rate", "outbound fatigue", "poor conversion", "manual outreach", "spray and pray", "inefficient", "no personalization"]
+
+    - id: sales_inbound_icp_mismatch_01
+      text: "Inbound leads don’t match ICP"
+      keywords: ["not ICP", "wrong leads", "bad fit", "off-target", "non-ideal customer", "random traffic", "non-converting", "poor match", "irrelevant", "misaligned"]
+
+    - id: sales_wrong_persona_targeting_01
+      text: "Targeting the wrong personas"
+      keywords: ["wrong persona", "decision-maker missing", "no budget authority", "not buyer", "low influence", "non-decision maker", "not user", "wrong role", "gatekeeper", "confused targeting"]
+
+    - id: sales_linkedin_ignored_01
+      text: "LinkedIn messages not getting responses"
+      keywords: ["ignored messages", "LinkedIn outreach", "no reply", "InMail failure", "seen but no action", "ghosted", "low reply rate", "spammy", "not clicking", "dead DMs"]
+
+    - id: sales_email_spam_ignore_01
+      text: "Cold emails land in spam or get ignored"
+      keywords: ["email spam", "no open", "ignored", "bounce", "low deliverability", "marked as spam", "poor subject line", "zero response", "blacklisted", "cold email failure"]
+
+    - id: sales_no_nurture_strategy_01
+      text: "No clear lead nurturing strategy"
+      keywords: ["no follow-up", "no lead journey", "lack of content", "missing drip", "inconsistent outreach", "no trust building", "not staying warm", "silent funnel", "no engagement", "no pipeline flow"]
+
+    - id: sales_sdr_ae_handoff_broken_01
+      text: "SDR–AE handoff is broken"
+      keywords: ["handoff issues", "lost in transition", "SDR AE misalignment", "bad notes", "context lost", "disjointed", "AE confused", "leads dropped", "handover gap", "no CRM notes"]
+
+    - id: sales_demo_noshow_01
+      text: "Demo no-shows"
+      keywords: ["no show", "missed demo", "ghosted meeting", "demo skipped", "calendar ignored", "didn’t attend", "not showing up", "rescheduled", "low commitment", "no attendance"]
+
+    - id: sales_interest_dropoff_01
+      text: "High drop-off between interest and engagement"
+      keywords: ["drop-off", "no follow-through", "ghosted", "interest dies", "fades away", "clicked but no reply", "silent lead", "no momentum", "low engagement", "slipping away"]
+
+    - id: sales_discovery_weak_questions_01
+      text: "Poor discovery questions lead to weak demos"
+      keywords: ["bad discovery", "shallow questions", "surface-level", "unfocused demo", "generic pitch", "no insights", "weak qualification", "not tailored", "no context", "lack of prep"]
+
+    - id: sales_discovery_no_pain_early_01
+      text: "Not identifying real pain early"
+      keywords: ["no pain uncovered", "no urgency", "pain unclear", "fluff responses", "no emotional hook", "unclear need", "superficial answers", "unqualified", "no pain point", "no stakes"]
+
+    - id: sales_discovery_budget_authority_missing_01
+      text: "Can’t surface budget or buying authority"
+      keywords: ["no budget clarity", "who decides", "not the buyer", "authority unclear", "can’t access decision maker", "no pricing talk", "gatekeeper", "BANT missing", "budget dodging", "influencer only"]
+
+    - id: sales_discovery_no_decision_process_01
+      text: "Buyer won’t disclose decision process"
+      keywords: ["decision unclear", "won’t say how", "no timeline", "hidden process", "internal politics", "decision fog", "can’t navigate", "no procurement visibility", "confusing path", "sales cycle opaque"]
+
+    - id: sales_discovery_conflicting_stakeholders_01
+      text: "Multiple stakeholders with conflicting goals"
+      keywords: ["conflicting goals", "misaligned team", "internal disagreement", "stakeholder conflict", "different priorities", "tug of war", "IT vs business", "multi-threading issue", "no consensus", "too many voices"]
+
+    - id: sales_discovery_tech_validation_missing_01
+      text: "Can’t get technical validation from IT"
+      keywords: ["IT not involved", "blocked by tech", "security delay", "no tech signoff", "integration questions", "IT ignoring", "tech approval missing", "engineering pushback", "no API discussion", "IT ghosting"]
+
+    - id: sales_discovery_no_urgency_01
+      text: "Lack of urgency from the buyer"
+      keywords: ["slow buyer", "no urgency", "happy with status quo", "not a priority", "later maybe", "no timeline", "dragging feet", "not now", "low stakes", "no pressure"]
+
+    - id: sales_discovery_postcall_ghosting_01
+      text: "Buyer ghosting after initial call"
+      keywords: ["ghosted", "no follow-up", "not replying", "disappeared", "no next steps", "radio silence", "post-call silence", "calendar empty", "no engagement", "vanished"]
+
+    - id: sales_discovery_expectation_gap_01
+      text: "Misaligned expectations between buyer and seller"
+      keywords: ["expectation mismatch", "not what they wanted", "wrong assumptions", "overpromised", "different understanding", "unclear scope", "misunderstood need", "delivery gap", "not aligned", "scope creep"]
+
+    - id: sales_discovery_unclear_problem_01
+      text: "Buyer unclear on their own problem"
+      keywords: ["don’t know issue", "unclear challenge", "no clarity", "problem vague", "not self-aware", "fuzzy needs", "no diagnosis", "shooting in dark", "not specific", "wandering brief"]
+     
+    - id: sales_demo_confusion_01
+      text: "Buyer doesn’t understand the product"
+      keywords: ["confusing product", "unclear value", "not intuitive", "what does it do", "too complex", "lost in demo", "no clarity", "poor explanation", "overwhelming", "no takeaway"]
+
+    - id: sales_demo_feature_overload_01
+      text: "Too many features overwhelm the buyer"
+      keywords: ["feature overload", "too much info", "can’t keep up", "scattered demo", "not focused", "feature fatigue", "all over the place", "no structure", "confusing flow", "cognitive load"]
+
+    - id: sales_demo_not_vertical_specific_01
+      text: "Not tailored to buyer's vertical"
+      keywords: ["not industry-specific", "no relevance", "too generic", "off-target use case", "wrong examples", "not my world", "irrelevant demo", "no domain fit", "no personalization", "one-size-fits-all"]
+
+    - id: sales_demo_too_complex_01
+      text: "This looks too complex"
+      keywords: ["too complicated", "hard to use", "steep learning curve", "technical", "complex UI", "overengineered", "not user friendly", "needs training", "not self-serve", "scary interface"]
+
+    - id: sales_demo_missing_feature_01
+      text: "Feature X missing from product"
+      keywords: ["missing feature", "can’t do X", "lacks functionality", "incomplete", "not built yet", "no support for Y", "limitation", "dealbreaker", "must-have missing", "waiting on roadmap"]
+
+    - id: sales_demo_integration_issues_01
+      text: "Platform not integrating with buyer’s stack"
+      keywords: ["no integration", "won’t connect", "tech stack mismatch", "incompatible", "API missing", "can’t sync", "workflow break", "manual workaround", "data silo", "integration blocker"]
+
+    - id: sales_demo_feature_parity_issue_01
+      text: "Competing vendor offers same feature"
+      keywords: ["everyone has this", "not unique", "feature parity", "X does this too", "why switch", "same as competitor", "no differentiator", "commodity feature", "not special", "already exists"]
+
+    - id: sales_demo_no_emotional_connection_01
+      text: "Demo didn’t connect emotionally"
+      keywords: ["no wow moment", "no impact", "felt flat", "just another tool", "boring demo", "no excitement", "no resonance", "cold presentation", "too technical", "not inspired"]
+
+    - id: sales_demo_low_product_maturity_01
+      text: "Low product maturity vs. big promises"
+      keywords: ["immature product", "too early", "still beta", "not ready", "MVP issues", "vision vs reality", "missing polish", "unfinished", "unstable", "gap between talk and walk"]
+
+    - id: sales_demo_no_roi_proven_01
+      text: "Unable to prove ROI during demo"
+      keywords: ["no ROI", "value not clear", "no business case", "can’t quantify", "no results shown", "vague outcomes", "no metrics", "no numbers", "no proof", "not persuasive"]
+       
+    - id: sales_demo_confusion_01
+      text: "Buyer doesn’t understand the product"
+      keywords: ["confusing product", "unclear value", "not intuitive", "what does it do", "too complex", "lost in demo", "no clarity", "poor explanation", "overwhelming", "no takeaway"]
+
+    - id: sales_demo_feature_overload_01
+      text: "Too many features overwhelm the buyer"
+      keywords: ["feature overload", "too much info", "can’t keep up", "scattered demo", "not focused", "feature fatigue", "all over the place", "no structure", "confusing flow", "cognitive load"]
+
+    - id: sales_demo_not_vertical_specific_01
+      text: "Not tailored to buyer's vertical"
+      keywords: ["not industry-specific", "no relevance", "too generic", "off-target use case", "wrong examples", "not my world", "irrelevant demo", "no domain fit", "no personalization", "one-size-fits-all"]
+
+    - id: sales_demo_too_complex_01
+      text: "This looks too complex"
+      keywords: ["too complicated", "hard to use", "steep learning curve", "technical", "complex UI", "overengineered", "not user friendly", "needs training", "not self-serve", "scary interface"]
+
+    - id: sales_demo_missing_feature_01
+      text: "Feature X missing from product"
+      keywords: ["missing feature", "can’t do X", "lacks functionality", "incomplete", "not built yet", "no support for Y", "limitation", "dealbreaker", "must-have missing", "waiting on roadmap"]
+
+    - id: sales_demo_integration_issues_01
+      text: "Platform not integrating with buyer’s stack"
+      keywords: ["no integration", "won’t connect", "tech stack mismatch", "incompatible", "API missing", "can’t sync", "workflow break", "manual workaround", "data silo", "integration blocker"]
+
+    - id: sales_demo_feature_parity_issue_01
+      text: "Competing vendor offers same feature"
+      keywords: ["everyone has this", "not unique", "feature parity", "X does this too", "why switch", "same as competitor", "no differentiator", "commodity feature", "not special", "already exists"]
+
+    - id: sales_demo_no_emotional_connection_01
+      text: "Demo didn’t connect emotionally"
+      keywords: ["no wow moment", "no impact", "felt flat", "just another tool", "boring demo", "no excitement", "no resonance", "cold presentation", "too technical", "not inspired"]
+
+    - id: sales_demo_low_product_maturity_01
+      text: "Low product maturity vs. big promises"
+      keywords: ["immature product", "too early", "still beta", "not ready", "MVP issues", "vision vs reality", "missing polish", "unfinished", "unstable", "gap between talk and walk"]
+
+    - id: sales_demo_no_roi_proven_01
+      text: "Unable to prove ROI during demo"
+      keywords: ["no ROI", "value not clear", "no business case", "can’t quantify", "no results shown", "vague outcomes", "no metrics", "no numbers", "no proof", "not persuasive"]
+
+    - id: sales_pricing_too_expensive_01
+      text: "It’s too expensive"
+      keywords: ["too costly", "price is high", "not affordable", "pricing objection", "over budget", "out of range", "can't justify price", "price mismatch", "expensive", "premium cost"]
+
+    - id: sales_pricing_budget_constraint_01
+      text: "Not in our budget right now"
+      keywords: ["no budget", "can’t allocate", "financial year closed", "tight budget", "no funds", "waiting for approval", "budget freeze", "budget exhausted", "too early", "spending hold"]
+
+    - id: sales_pricing_revisit_later_01
+      text: "We’ll revisit next quarter"
+      keywords: ["circle back", "next quarter", "later", "not now", "delayed decision", "stalling", "Q3 maybe", "pipeline parking", "push out", "timing issue"]
+
+    - id: sales_pricing_cfo_block_01
+      text: "Can’t justify cost to CFO"
+      keywords: ["CFO block", "finance team says no", "can’t show ROI", "budget approval failed", "no business case", "finance pushback", "need justification", "not strategic enough", "cost too high", "value unclear"]
+
+    - id: sales_pricing_unclear_roi_01
+      text: "ROI not clearly tied to pricing"
+      keywords: ["ROI unclear", "can’t see return", "no metrics", "no outcome tie", "cost vs benefit unclear", "not justified", "pricing feels random", "too abstract", "no value anchor", "no proof"]
+
+    - id: sales_pricing_model_mismatch_01
+      text: "Pricing model (seat vs usage) doesn’t work for them"
+      keywords: ["pricing model issue", "seat vs usage", "doesn’t scale", "wrong pricing fit", "can’t afford usage", "per user not suitable", "billing mismatch", "model friction", "variable cost concern", "model not aligned"]
+
+    - id: sales_pricing_discount_request_01
+      text: "Buyer wants deep discounts"
+      keywords: ["too expensive", "need discount", "cut price", "pricing negotiation", "bulk pricing", "more affordable", "cost reduction", "deal blocker", "ask for offer", "discount pressure"]
+
+    - id: sales_pricing_enterprise_unfit_01
+      text: "Startup pricing not enterprise friendly"
+      keywords: ["not enterprise ready", "SMB pricing", "not scalable", "not procurement aligned", "can’t onboard", "non-compliant pricing", "missing SLAs", "no multi-year option", "no custom tiers", "pricing too simple"]
+
+    - id: sales_pricing_legal_procurement_block_01
+      text: "Legal/procurement blocks due to cost"
+      keywords: ["procurement pushback", "legal says no", "cost too high", "compliance issue", "vendor onboarding failed", "budget ceiling", "approval delay", "not compliant", "contract issues", "financial blocker"]
+
+    - id: sales_pricing_payment_terms_rigid_01
+      text: "Payment terms are too rigid"
+      keywords: ["no flexible terms", "upfront cost issue", "monthly vs annual", "can’t pay now", "payment friction", "billing cycle", "finance ops mismatch", "need Net 60", "term issue", "contract term mismatch"]
+
+    - id: sales_timing_not_right_01
+      text: "Now’s not the right time"
+      keywords: ["bad timing", "not right now", "too early", "circle back later", "revisit in future", "delaying", "pause for now", "timing misalignment", "not a priority", "later maybe"]
+
+    - id: sales_timing_internal_priorities_01
+      text: "Competing internal priorities"
+      keywords: ["other priorities", "too much going on", "conflicting projects", "internal focus shift", "not top of list", "swamped", "different priorities", "project backlog", "timing conflict", "not urgent internally"]
+
+    - id: sales_timing_budget_spent_01
+      text: "Budget already allocated"
+      keywords: ["budget spent", "funds used up", "allocation done", "no budget left", "already assigned", "financial year closed", "budget locked", "budget tight", "can’t reallocate", "need next cycle"]
+
+    - id: sales_timing_internal_deadline_missed_01
+      text: "Missed internal deadlines on buyer side"
+      keywords: ["missed deadline", "internal delay", "late submission", "timing slip", "timeline missed", "milestone delay", "no internal progress", "project stalled", "not on track", "buyer side delay"]
+
+    - id: sales_timing_internal_approval_stuck_01
+      text: "Deal stuck in internal approvals"
+      keywords: ["approval delay", "waiting on sign-off", "internal hold", "procurement slow", "legal review", "finance hold", "decision lag", "approval loop", "red tape", "slow process"]
+
+    - id: sales_timing_cant_schedule_call_01
+      text: "Can’t schedule next call"
+      keywords: ["no time", "calendar conflict", "hard to book", "can’t find slot", "scheduling issue", "buyer unavailable", "meeting not confirmed", "follow-up stalled", "no next step", "ghosting on scheduling"]
+
+    - id: sales_timing_buyer_ooo_01
+      text: "Buyer on vacation / OOO"
+      keywords: ["out of office", "on leave", "vacation", "away from desk", "traveling", "can’t respond", "OOTO", "not available", "radio silence", "will reply later"]
+
+    - id: sales_timing_postdemo_momentum_lost_01
+      text: "Momentum lost after demo"
+      keywords: ["no follow-up", "lost steam", "interest died", "demo silence", "drop in energy", "nothing after call", "no traction", "demo ghost", "enthusiasm faded", "slow fade"]
+
+    - id: sales_timing_quarter_end_pressure_01
+      text: "Quarter end pressure kills deal focus"
+      keywords: ["Q-end chaos", "too busy", "internal sales focus", "distracted team", "can’t prioritize", "internal deadlines", "rev ops distraction", "closing other deals", "finance swamped", "shifted attention"]
+
+    - id: sales_timing_window_closed_01
+      text: "Buying window closed"
+      keywords: ["too late", "window missed", "missed timeline", "procurement cutoff", "buying cycle over", "next cycle", "missed opportunity", "decision made", "no longer evaluating", "review period ended"]
+
+    - id: sales_objection_existing_tool_01
+      text: "We’re already using another tool"
+      keywords: ["existing vendor", "already have", "current solution", "tool in place", "using competitor", "not switching", "working fine", "already onboarded", "replacement risk", "duplicate effort"]
+
+    - id: sales_objection_build_inhouse_01
+      text: "We can build this internally"
+      keywords: ["internal build", "DIY", "engineering team", "build vs buy", "custom solution", "own roadmap", "develop in-house", "cost-saving", "tech team prefers", "control issue"]
+
+    - id: sales_objection_content_with_current_01
+      text: "We’re happy with what we have"
+      keywords: ["satisfied", "no need to change", "it works", "good enough", "comfortable", "stable setup", "status quo", "no pain", "minimal friction", "don’t want disruption"]
+
+    - id: sales_objection_vendor_loyalty_01
+      text: "We don’t want to change vendors"
+      keywords: ["vendor loyalty", "relationship risk", "long-term partner", "contract lock-in", "don’t want to switch", "familiarity", "trust issues", "change fatigue", "transition risk", "stakeholder resistance"]
+
+    - id: sales_objection_failed_before_01
+      text: "We tried something like this before"
+      keywords: ["past failure", "bad experience", "didn’t work", "already tested", "waste of time", "burned before", "skeptical", "no results last time", "wary of repeat", "lost faith"]
+
+    - id: sales_objection_proof_lacking_01
+      text: "Not enough proof this works"
+      keywords: ["no evidence", "need case studies", "where's the ROI", "not proven", "no data", "unvalidated", "low trust", "no traction shown", "success unclear", "not enough results"]
+
+    - id: sales_objection_too_early_stage_01
+      text: "Your company is too early stage"
+      keywords: ["early stage", "young startup", "risky vendor", "not mature", "unstable", "too new", "no brand trust", "lack of track record", "startup risk", "scalability concern"]
+
+    - id: sales_objection_shutdown_risk_01
+      text: "What happens if your startup shuts down?"
+      keywords: ["shutdown risk", "exit plan", "vendor risk", "business continuity", "what if you fail", "no long-term view", "support risk", "back-up plan", "end-of-life concern", "risk mitigation"]
+
+    - id: sales_objection_security_concerns_01
+      text: "Security/compliance not robust enough"
+      keywords: ["security risk", "compliance gap", "not SOC2", "no ISO", "data protection issue", "privacy concern", "insecure", "IT won’t approve", "risk exposure", "infosec block"]
+
+    - id: sales_objection_scaling_doubt_01
+      text: "We’re not sure you can scale with us"
+      keywords: ["scalability concern", "future proof", "growth risk", "can’t handle volume", "not enterprise ready", "limited capacity", "outgrow you", "performance risk", "not built to scale", "scale mismatch"]
+      
+    - id: sales_trust_no_industry_case_01
+      text: "No case studies in their industry"
+      keywords: ["no relevant case study", "industry proof missing", "not for our vertical", "sector mismatch", "need relatable success", "lack of peer example", "unproven in our space", "irrelevant examples", "case study gap", "not tailored"]
+
+    - id: sales_trust_low_social_proof_01
+      text: "Few logos / not enough social proof"
+      keywords: ["no big logos", "no social proof", "who else uses you", "no big names", "too few clients", "credibility gap", "lack of validation", "low trust signal", "small client list", "missing customer logos"]
+
+    - id: sales_trust_weak_pitch_assets_01
+      text: "Website or pitch deck lacks clarity"
+      keywords: ["unclear messaging", "confusing deck", "messy site", "don’t get it", "hard to understand", "no clarity", "weak narrative", "what do you even do", "poor branding", "not compelling"]
+
+    - id: sales_trust_inconsistent_sales_messaging_01
+      text: "Inconsistent messaging from sales team"
+      keywords: ["different answers", "confusing team", "not aligned", "mixed messages", "unclear story", "reps say different things", "inconsistent pitch", "disconnect", "who’s right?", "friction in narrative"]
+
+    - id: sales_trust_exec_not_visible_01
+      text: "CEO/exec not visible or credible"
+      keywords: ["no leadership presence", "where’s the founder", "no face to brand", "execs not involved", "no authority figure", "weak thought leadership", "no credibility from top", "exec team unknown", "can’t find CEO", "leadership invisible"]
+
+    - id: sales_trust_low_review_scores_01
+      text: "Low G2 / Capterra ratings"
+      keywords: ["bad reviews", "low score", "negative feedback", "poor ratings", "G2 concern", "Capterra risk", "weak reputation", "customer complaints", "bad testimonials", "lack of stars"]
+
+    - id: sales_trust_no_enterprise_track_record_01
+      text: "Limited track record with companies their size"
+      keywords: ["no enterprise clients", "unproven at scale", "too small for us", "not fit for our size", "lack of experience", "no large customer logos", "scaling concern", "big company mismatch", "not enterprise ready", "size credibility gap"]
+
+    - id: sales_trust_overselling_01
+      text: "Reps overselling capabilities"
+      keywords: ["overpromise", "too good to be true", "can't deliver", "exaggerated claims", "sales fluff", "won’t match reality", "oversold", "features overstated", "what’s real?", "mismatch risk"]
+
+    - id: sales_trust_vague_promises_01
+      text: "Vague promises without proof"
+      keywords: ["no proof", "hand-wavy", "general claims", "where’s the data", "trust me pitch", "no specifics", "no metrics", "unbacked promise", "weak evidence", "nothing concrete"]
+
+    - id: sales_trust_sound_generic_01
+      text: "You sound just like every other SaaS company"
+      keywords: ["generic pitch", "no differentiation", "heard it before", "SaaS jargon", "same old message", "not unique", "blends in", "me-too messaging", "not standing out", "too similar to others"]
+
+    - id: sales_process_proposal_delay_01
+      text: "Proposal takes too long to send"
+      keywords: ["slow proposal", "delayed quote", "late pricing", "can’t get proposal out", "waiting for terms", "no pricing doc", "quote not ready", "dragging timeline", "delayed response", "no proposal sent"]
+
+    - id: sales_process_crm_dirty_data_01
+      text: "CRM data is outdated or incorrect"
+      keywords: ["bad crm data", "wrong info", "missing contact", "not updated", "dirty pipeline", "CRM not trusted", "lead data issue", "rep forgot to update", "CRM unreliable", "mismatched records"]
+
+    - id: sales_process_manual_followups_01
+      text: "Manual follow-ups instead of automated flows"
+      keywords: ["manual reminders", "follow-up fatigue", "no sequences", "no automation", "forgot to follow up", "missed touchpoints", "workflow gaps", "slow outreach", "non-scalable", "leads going cold"]
+
+    - id: sales_process_sdr_ae_misaligned_01
+      text: "SDR and AE not aligned"
+      keywords: ["handoff issue", "lead not qualified", "SDR closed wrong", "no alignment", "confusing handover", "AE didn’t follow up", "bad coordination", "pipeline mismatch", "duplicated effort", "role confusion"]
+
+    - id: sales_process_no_closing_path_01
+      text: "No clear closing process"
+      keywords: ["unclear close plan", "closing chaos", "how do we close", "no defined path", "winging the deal", "no closing framework", "random process", "no steps laid out", "last-minute scramble", "deal drift"]
+
+    - id: sales_process_comp_plan_issue_01
+      text: "Comp plan incentives misaligned with pipeline"
+      keywords: ["wrong incentive", "quota pressure", "misaligned goals", "bad comp structure", "pushy selling", "rep behavior mismatch", "deal stuffing", "non-strategic closes", "AE disincentivized", "SDR gaming pipeline"]
+
+    - id: sales_process_no_battlecards_01
+      text: "No clear battlecards or objection handling"
+      keywords: ["missing sales playbook", "no objection handling", "what to say", "competitor unclear", "no cheat sheet", "winging responses", "confused reps", "no enablement", "guessing in calls", "sales unprepared"]
+
+    - id: sales_process_cs_not_looped_early_01
+      text: "Not looping in CS early enough"
+      keywords: ["CS not involved", "handoff delayed", "success team unaware", "onboarding blind", "late engagement", "CS left out", "post-sale surprise", "no continuity", "bad handover", "no pre-sale planning"]
+
+    - id: sales_process_deal_desk_delay_01
+      text: "Deal desk slows things down"
+      keywords: ["deal desk delay", "waiting for approval", "pricing hold-up", "ops bottleneck", "can’t finalize", "approval stuck", "ops team delay", "deal blocked", "revenue ops lag", "slow internal review"]
+
+    - id: sales_process_legal_infosec_block_01
+      text: "Legal/InfoSec back-and-forth drags"
+      keywords: ["contract delay", "redlining", "legal stuck", "compliance issue", "infosec back-and-forth", "procurement roadblock", "slow approvals", "security review", "paperwork drag", "too much legal overhead"]
+
+    - id: sales_postdemo_buyer_silent_01
+      text: "Buyer goes quiet after proposal"
+      keywords: ["ghosting", "no reply", "radio silence", "proposal sent, no response", "deal limbo", "follow-up ignored", "quiet after pricing", "no feedback", "stall after proposal", "deal drift"]
+
+    - id: sales_postdemo_no_exec_sponsor_01
+      text: "No exec sponsor to push internally"
+      keywords: ["no champion", "no decision-maker", "lacks sponsor", "need exec buy-in", "not escalated", "internal blocker", "no senior support", "can’t get approval", "no exec in loop", "stuck at manager level"]
+
+    - id: sales_postdemo_champion_disappears_01
+      text: "Internal champion disappears"
+      keywords: ["lost champion", "key contact vanished", "no internal push", "lost momentum", "no internal follow-up", "handoff breakdown", "stakeholder dropped", "no driver", "internal support gone", "main buyer MIA"]
+
+    - id: sales_postdemo_pricing_too_soon_01
+      text: "Pricing email sent too early"
+      keywords: ["premature pricing", "scared off by price", "sent too soon", "not ready for cost", "too early in cycle", "price without context", "no value before cost", "early sticker shock", "jumped the gun", "pricing kills deal"]
+
+    - id: sales_postdemo_funded_elsewhere_01
+      text: "Competing project gets funded instead"
+      keywords: ["lost budget", "funding redirected", "another project prioritized", "budget shifted", "resource reallocation", "internal politics", "no funds left", "deal deprioritized", "timing issue", "lost to internal battle"]
+
+    - id: sales_postdemo_buyer_reshuffle_01
+      text: "Buyer team reshuffle kills deal"
+      keywords: ["reorg", "team change", "new stakeholder", "contact left", "org shuffle", "ownership changed", "deal reset", "starting over", "new lead, new priorities", "politics shift"]
+
+    - id: sales_postdemo_tech_eval_stall_01
+      text: "Technical eval stalls after demo"
+      keywords: ["POC stalled", "no sandbox use", "integration delay", "no IT feedback", "evaluation freeze", "tech team delay", "waiting on test results", "engineering block", "pilot stalled", "unclear next steps"]
+
+    - id: sales_postdemo_unknown_deal_status_01
+      text: "Not knowing where the deal stands"
+      keywords: ["deal status unclear", "no update", "in the dark", "next steps vague", "follow-up confusion", "where is this going", "uncertain buyer intent", "ambiguous deal stage", "status check fatigue", "deal ambiguity"]
+
+    - id: sales_postdemo_checkin_ignored_01
+      text: "Multiple check-ins with no response"
+      keywords: ["ignored emails", "too many nudges", "check-ins ghosted", "follow-up fatigue", "pinged too much", "no reply after outreach", "over-following up", "desperate follow-up", "still waiting", "radio silence continues"]
+
+    - id: sales_postdemo_fear_of_churn_blocks_push_01
+      text: "Fear of buyer churn post-close blocks push"
+      keywords: ["post-sale churn fear", "buyer not ready", "pushback from CS", "don’t want bad fit", "success risk", "potential churn", "onboarding concern", "don’t want deal to collapse", "pushing wrong deal", "future churn fear"]
+
+    - id: sales_mindset_burnout_01
+      text: "Rejection burnout"
+      keywords: ["burned out", "too many no's", "fatigue from rejection", "sales exhaustion", "mentally drained", "low morale", "constant pushback", "discouraged", "no wins", "emotionally tired"]
+
+    - id: sales_mindset_pipeline_anxiety_01
+      text: "Pipeline anxiety"
+      keywords: ["pipeline stress", "quota pressure", "not enough leads", "deal insecurity", "low forecast confidence", "miss targets", "thin pipeline", "nervous about deals", "rep under pressure", "deal flow worries"]
+
+    - id: sales_mindset_disconnected_mission_01
+      text: "Feeling disconnected from product mission"
+      keywords: ["don’t believe in product", "unclear vision", "not bought in", "mission misalignment", "can’t relate to product", "no connection", "not inspired", "don’t feel purpose", "misaligned values", "what are we selling?"]
+
+    - id: sales_strategy_weak_icp_01
+      text: "Lack of clarity on ICP"
+      keywords: ["who’s our target?", "unclear buyer", "wrong prospects", "confused ICP", "shooting blind", "bad fit leads", "no defined persona", "uncertain target", "messy outreach", "random outreach"]
+
+    - id: sales_strategy_lead_routing_01
+      text: "Poor lead routing rules"
+      keywords: ["leads go to wrong rep", "routing errors", "lost leads", "bad lead distribution", "territory confusion", "no routing logic", "disorganized leads", "unfair assignment", "bad handoff", "missed leads"]
+
+    - id: sales_strategy_unclear_pmf_01
+      text: "Product–market fit still shaky"
+      keywords: ["not resonating", "buyers not excited", "PMF uncertain", "market confusion", "product doesn’t click", "early traction missing", "not fitting the need", "not solving pain", "market unsure", "feature–market gap"]
+
+    - id: sales_strategy_gtm_undefined_01
+      text: "Company still figuring out GTM motion"
+      keywords: ["unclear GTM", "no strategy", "early stage confusion", "messy go-to-market", "no playbook", "figuring out model", "unstructured GTM", "random sales efforts", "still experimenting", "sales chaos"]
+
+    - id: sales_mindset_vp_pressure_01
+      text: "VP Sales pressure to “close at all costs”"
+      keywords: ["close or die", "pressure from top", "quota obsession", "high-pressure culture", "VP pushing hard", "no breathing room", "close anything", "quality ignored", "fear-based sales", "forced deals"]
+
+    - id: sales_strategy_no_enablement_01
+      text: "Team lacks sales enablement"
+      keywords: ["no training", "no resources", "missing tools", "winging it", "unprepared reps", "lack of coaching", "no support materials", "no scripts", "no battlecards", "weak onboarding"]
+
+    - id: sales_strategy_gtm_gap_leadership_01
+      text: "No strong GTM strategy at leadership level"
+      keywords: ["no vision", "poor strategy", "unclear direction", "leadership gap", "execs guessing", "not aligned", "no go-to-market focus", "weak sales leadership", "strategy vacuum", "GTM chaos"]
+
+
+
+      
+
+  support:
+    - id: support_bug_feature_not_working_01
+      text: "Feature not working as expected"
+      keywords: ["not functioning", "feature broken", "unexpected issue", "inconsistent behavior", "doesn’t work properly", "can’t use feature", "not behaving", "defective", "doesn’t respond", "malfunction"]
+
+    - id: support_bug_button_error_01
+      text: "Button click leads to error"
+      keywords: ["button not working", "click fails", "nothing happens", "error on click", "button action broken", "UI click bug", "button unresponsive", "click returns error", "button leads nowhere", "form button issue"]
+
+    - id: support_bug_app_crash_01
+      text: "App crashes intermittently"
+      keywords: ["app crash", "random crash", "unexpected shutdown", "app freezes", "force close", "unstable app", "session crash", "restarting randomly", "lags then crashes", "crash loop"]
+
+    - id: support_bug_update_issue_01
+      text: "Unexpected behavior after update"
+      keywords: ["after update", "new version bug", "post-update issue", "latest release problem", "update broke it", "regression bug", "something changed", "new bugs", "update not working", "recent update caused"]
+
+    - id: support_bug_mobile_layout_01
+      text: "Broken layout on mobile"
+      keywords: ["mobile view broken", "layout issue", "not responsive", "overlapping elements", "mobile UI issue", "small screen problem", "can’t scroll", "screen cut off", "mobile design bug", "text overflowing"]
+
+    - id: support_bug_dropdown_fail_01
+      text: "Dropdown doesn't populate correctly"
+      keywords: ["dropdown empty", "can’t select", "dropdown broken", "menu not showing", "no options", "dropdown doesn’t work", "missing values", "unresponsive dropdown", "form stuck", "select menu bug"]
+
+    - id: support_bug_upload_fail_01
+      text: "File uploads fail randomly"
+      keywords: ["upload failed", "file not uploading", "random error", "can’t attach", "upload issue", "upload crashes", "document won’t go", "timeout during upload", "upload never finishes", "file disappears"]
+
+    - id: support_bug_error_message_confusion_01
+      text: "Error messages are unclear"
+      keywords: ["confusing error", "not helpful", "what does this mean?", "error code only", "unclear feedback", "ambiguous message", "cryptic error", "no explanation", "error makes no sense", "bad UX"]
+
+    - id: support_bug_config_not_saving_01
+      text: "Configuration changes don’t save"
+      keywords: ["settings not saving", "changes lost", "preferences reset", "save doesn’t work", "form resets", "no confirmation", "config not applied", "update ignored", "stuck config", "options disappear"]
+
+    - id: support_bug_integration_sync_fail_01
+      text: "Integration sync fails intermittently"
+      keywords: ["intermittent sync", "integration unstable", "connection drops", "sync error", "works sometimes", "not consistent", "third-party sync issue", "data not syncing", "partial sync", "fails randomly"]
+
+    - id: support_missing_feature_request_01
+      text: "Customer requests a feature we don’t support"
+      keywords: ["do you support", "need this feature", "missing functionality", "can’t find this", "not available", "lack of support for", "feature request", "please add this", "why isn’t this built", "product limitation"]
+
+    - id: support_missing_integration_tool_01
+      text: "No integration with required third-party tool"
+      keywords: ["no integration", "missing plugin", "not compatible", "doesn’t connect to", "can’t sync with", "need integration for", "unsupported tool", "external app missing", "platform not found", "can’t connect to"]
+
+    - id: support_missing_customization_01
+      text: "Lack of customization in forms/fields"
+      keywords: ["can’t customize", "limited options", "no dropdown edit", "need custom fields", "form too rigid", "field not editable", "not flexible", "can’t configure", "need more control", "static form"]
+
+    - id: support_missing_api_action_01
+      text: "No API for mission-critical action"
+      keywords: ["missing API", "no endpoint", "need API access", "can’t automate", "no dev access", "integration blocker", "need programmatic support", "API doesn’t support", "lacking API feature", "no webhook"]
+
+    - id: support_feature_plan_limited_01
+      text: "Feature locked behind enterprise plan"
+      keywords: ["need upgrade", "only in enterprise", "locked feature", "pricing tier", "plan limitation", "not in current plan", "paywall", "premium-only", "feature restricted", "upgrade required"]
+
+    - id: support_missing_multilanguage_01
+      text: "Multi-language support missing"
+      keywords: ["language not supported", "need translation", "no local version", "international users issue", "not available in my language", "non-English issue", "need localization", "can’t change language", "missing language pack", "global support missing"]
+
+    - id: support_mobile_feature_gap_01
+      text: "Mobile app lacks desktop parity"
+      keywords: ["not on mobile", "desktop only", "can’t do this on app", "mobile missing features", "mobile vs desktop", "function only on web", "app too limited", "feature not on phone", "mobile version lacks", "no parity"]
+
+    - id: support_missing_export_option_01
+      text: "Export option missing in reports"
+      keywords: ["can’t export", "no download button", "need CSV", "missing export feature", "no PDF option", "export fails", "not able to export", "report not downloadable", "want to export", "download not available"]
+
+    - id: support_missing_accessibility_01
+      text: "UI not accessible for screen readers"
+      keywords: ["accessibility issue", "screen reader not working", "not inclusive", "ADA non-compliance", "keyboard nav broken", "visually impaired issue", "tab doesn’t move", "no alt text", "ARIA missing", "can’t navigate with screen reader"]
+
+    - id: support_missing_custom_roles_01
+      text: "No support for custom roles or permissions"
+      keywords: ["can’t add role", "no custom permissions", "access control missing", "too rigid roles", "not enough granularity", "role management limited", "permissions not flexible", "need fine-tuning", "access setup problem", "RBAC missing"]
+
+    - id: support_missing_feature_request_01
+      text: "Customer requests a feature we don’t support"
+      keywords: ["do you support", "need this feature", "missing functionality", "can’t find this", "not available", "lack of support for", "feature request", "please add this", "why isn’t this built", "product limitation"]
+
+    - id: support_missing_integration_tool_01
+      text: "No integration with required third-party tool"
+      keywords: ["no integration", "missing plugin", "not compatible", "doesn’t connect to", "can’t sync with", "need integration for", "unsupported tool", "external app missing", "platform not found", "can’t connect to"]
+
+    - id: support_missing_customization_01
+      text: "Lack of customization in forms/fields"
+      keywords: ["can’t customize", "limited options", "no dropdown edit", "need custom fields", "form too rigid", "field not editable", "not flexible", "can’t configure", "need more control", "static form"]
+
+    - id: support_missing_api_action_01
+      text: "No API for mission-critical action"
+      keywords: ["missing API", "no endpoint", "need API access", "can’t automate", "no dev access", "integration blocker", "need programmatic support", "API doesn’t support", "lacking API feature", "no webhook"]
+
+    - id: support_feature_plan_limited_01
+      text: "Feature locked behind enterprise plan"
+      keywords: ["need upgrade", "only in enterprise", "locked feature", "pricing tier", "plan limitation", "not in current plan", "paywall", "premium-only", "feature restricted", "upgrade required"]
+
+    - id: support_missing_multilanguage_01
+      text: "Multi-language support missing"
+      keywords: ["language not supported", "need translation", "no local version", "international users issue", "not available in my language", "non-English issue", "need localization", "can’t change language", "missing language pack", "global support missing"]
+
+    - id: support_mobile_feature_gap_01
+      text: "Mobile app lacks desktop parity"
+      keywords: ["not on mobile", "desktop only", "can’t do this on app", "mobile missing features", "mobile vs desktop", "function only on web", "app too limited", "feature not on phone", "mobile version lacks", "no parity"]
+
+    - id: support_missing_export_option_01
+      text: "Export option missing in reports"
+      keywords: ["can’t export", "no download button", "need CSV", "missing export feature", "no PDF option", "export fails", "not able to export", "report not downloadable", "want to export", "download not available"]
+
+    - id: support_missing_accessibility_01
+      text: "UI not accessible for screen readers"
+      keywords: ["accessibility issue", "screen reader not working", "not inclusive", "ADA non-compliance", "keyboard nav broken", "visually impaired issue", "tab doesn’t move", "no alt text", "ARIA missing", "can’t navigate with screen reader"]
+
+    - id: support_missing_custom_roles_01
+      text: "No support for custom roles or permissions"
+
+      keywords: ["can’t add role", "no custom permissions", "access control missing", "too rigid roles", "not enough granularity", "role management limited", "permissions not flexible", "need fine-tuning", "access setup problem", "RBAC missing"]
+
+    - id: support_perf_slow_peak_01
+      text: "App is extremely slow during peak hours"
+      keywords: ["app slow", "takes forever", "laggy", "sluggish", "performance drops", "peak time issue", "high traffic lag", "slowdown", "delayed response", "server strain"]
+
+    - id: support_perf_timeout_form_01
+      text: "Frequent timeouts during form submission"
+      keywords: ["form timeout", "submission fails", "can’t submit", "error while submitting", "request timed out", "form won’t send", "lost data on submit", "page expired", "upload timeout", "timed out error"]
+
+    - id: support_perf_dashboard_fail_01
+      text: "Dashboard fails to load completely"
+      keywords: ["dashboard not loading", "partial data", "blank dashboard", "missing widgets", "dashboard error", "UI doesn’t load", "empty screen", "stuck loading", "dashboard broken", "data not showing"]
+
+    - id: support_perf_slow_reports_01
+      text: "Reports take too long to generate"
+      keywords: ["report slow", "report takes forever", "generating stuck", "not loading reports", "long report time", "waiting too long", "can’t get data", "slow analytics", "lag in reports", "reporting delay"]
+
+    - id: support_perf_latency_region_01
+      text: "Site latency varies by region"
+      keywords: ["slow in my region", "latency issue", "regional lag", "data center problem", "different speeds", "region-specific delay", "geographic slowdown", "Europe slow", "Asia laggy", "location-based issue"]
+
+    - id: support_perf_downtime_unscheduled_01
+      text: "Unscheduled downtime without communication"
+      keywords: ["site down", "outage", "can’t access app", "unexpected downtime", "service unavailable", "no status update", "site offline", "no alert", "down for everyone", "unplanned outage"]
+
+    - id: support_perf_auto_logout_01
+      text: "Session logs out users prematurely"
+      keywords: ["auto logout", "session expired", "kicked out", "logged out randomly", "timeout too fast", "forced sign out", "keeps logging me out", "inactivity timeout", "logged off", "session reset"]
+
+    - id: support_perf_realtime_lag_01
+      text: "Real-time updates lag significantly"
+      keywords: ["real-time lag", "slow refresh", "data not updating", "delay in updates", "late sync", "websocket delay", "no live updates", "laggy metrics", "notifications delayed", "real-time issue"]
+
+    - id: support_perf_upload_crash_01
+      text: "App crashes when uploading large files"
+      keywords: ["upload crash", "file too big", "app stops", "large file issue", "upload fails", "crashes on upload", "freeze during upload", "big file error", "upload timeout", "app shuts down"]
+
+    - id: support_perf_mobile_degraded_01
+      text: "Users face degraded performance on mobile"
+      keywords: ["mobile lag", "slow app on phone", "mobile performance poor", "phone version slow", "mobile app sluggish", "degraded on mobile", "not optimized", "slow load on app", "mobile UX bad", "performance issue on phone"]
+
+    - id: support_ticket_slow_resolution_01
+      text: "Ticket resolution took too long"
+      keywords: ["took forever", "delayed fix", "too slow", "still unresolved", "waited too long", "no resolution", "long turnaround", "ticket dragging", "waiting for days", "support delay"]
+
+    - id: support_ticket_autoresponse_useless_01
+      text: "First response was auto-generated and unhelpful"
+      keywords: ["auto reply", "template message", "not helpful", "copy-paste answer", "generic response", "canned reply", "not relevant", "bot-like response", "robotic", "didn’t answer my question"]
+
+    - id: support_ticket_closed_prematurely_01
+      text: "Ticket closed without proper resolution"
+      keywords: ["ticket closed", "not solved", "issue not fixed", "closed too early", "why did you close", "problem still exists", "reopened ticket", "marked resolved", "no closure", "closed without solution"]
+
+    - id: support_ticket_escalated_ignored_01
+      text: "Ticket escalated but never followed up"
+      keywords: ["no follow-up", "escalation ignored", "never heard back", "escalated but quiet", "waiting for manager", "follow-up missing", "still escalated", "what’s the update", "radio silence", "left hanging"]
+
+    - id: support_ticket_repeat_issue_01
+      text: "Customer had to reopen same issue repeatedly"
+      keywords: ["reopened again", "same issue back", "didn’t fix permanently", "recurring problem", "still broken", "again and again", "had to reopen", "ticket keeps coming back", "ongoing issue", "looping"]
+
+    - id: support_ticket_sla_missed_01
+      text: "High-priority ticket missed SLA"
+      keywords: ["missed SLA", "urgent issue delayed", "P1 ignored", "priority ticket late", "high severity no response", "no SLA adherence", "breach of SLA", "response time exceeded", "priority mishandled", "not on time"]
+
+    - id: support_ticket_wrong_priority_01
+      text: "Wrong priority assigned by support"
+      keywords: ["wrong priority", "should be urgent", "mislabeled", "P1 marked as P3", "not low impact", "underestimated", "incorrect triage", "misclassified", "this is critical", "priority downgrade"]
+
+    - id: support_ticket_no_updates_01
+      text: "Lack of updates on open tickets"
+      keywords: ["no update", "what’s going on", "still waiting", "ticket stagnant", "haven’t heard back", "need update", "silence from support", "pending with no info", "status unknown", "in the dark"]
+
+    - id: support_ticket_many_transfers_01
+      text: "Too many reassignments across agents"
+      keywords: ["keep switching agents", "told my issue 3 times", "transferred again", "new person every time", "handed off too much", "no continuity", "repeating myself", "agent turnover", "passed around", "team shuffle"]
+
+    - id: support_ticket_no_clear_resolution_01
+      text: "No clear resolution in support responses"
+      keywords: ["unclear fix", "vague solution", "not confident", "need step-by-step", "resolution not clear", "what should I do", "confusing answer", "no concrete steps", "uncertain response", "incomplete instructions"]
+
+    - id: support_comm_rude_tone_01
+      text: "Support agent sounded rude or dismissive"
+      keywords: ["rude", "dismissive", "felt disrespected", "bad attitude", "curt response", "unprofessional tone", "cold reply", "sounded harsh", "felt brushed off", "snappy agent"]
+
+    - id: support_comm_lack_empathy_01
+      text: "Response lacked empathy or validation"
+      keywords: ["no empathy", "didn’t acknowledge my frustration", "robotic", "felt ignored", "no understanding", "emotionless reply", "not validating", "cold tone", "didn't care", "impersonal support"]
+
+    - id: support_comm_technical_jargon_01
+      text: "Too much technical jargon used"
+      keywords: ["tech jargon", "don’t understand", "too complicated", "confusing terms", "not user friendly", "explain like I’m 5", "layman terms please", "overly technical", "can’t follow", "buzzword heavy"]
+
+    - id: support_comm_confusing_instructions_01
+      text: "Agent provided confusing instructions"
+      keywords: ["instructions unclear", "step not working", "not making sense", "bad directions", "too complicated", "poorly explained", "can’t follow steps", "need clarification", "what do you mean", "vague instructions"]
+
+    - id: support_comm_tone_mismatch_01
+      text: "Tone mismatch with customer’s frustration level"
+      keywords: ["not matching tone", "too casual", "tone off", "frustrated and got cheerful reply", "read the room", "mismatch response", "tone deaf", "wrong energy", "not taking me seriously", "joking when I’m upset"]
+
+    - id: support_comm_conflicting_info_01
+      text: "Conflicting responses from different agents"
+      keywords: ["inconsistent answers", "different replies", "conflicting info", "one agent said X, another said Y", "no clarity", "mixed messages", "confused by support", "keep changing story", "contradicting", "no single source of truth"]
+
+    - id: support_comm_ignored_question_01
+      text: "Agent ignored part of the question"
+      keywords: ["didn’t answer everything", "missed part", "only replied to half", "not reading properly", "question skipped", "left part out", "need full answer", "incomplete reply", "not thorough", "selective response"]
+
+    - id: support_comm_issue_minimized_01
+      text: "Customer felt issue was minimized"
+      keywords: ["not a big deal?", "brushed off", "minimized concern", "treated lightly", "downplayed issue", "told it’s not urgent", "felt dismissed", "undervalued problem", "ignored impact", "shrugged off"]
+
+    - id: support_comm_bad_explanation_01
+      text: "Explanation didn’t make sense"
+      keywords: ["makes no sense", "bad explanation", "unclear logic", "don’t understand reason", "confusing support", "not explained well", "illogical", "explanation unclear", "what are you saying", "need better reasoning"]
+
+    - id: support_comm_scripted_response_01
+      text: "Response felt robotic or scripted"
+      keywords: ["scripted", "copy-paste reply", "robotic", "not personalized", "auto response", "sounded like a bot", "template message", "no human touch", "repetitive wording", "not genuine"]
+ 
+    - id: support_escalation_repeat_explaining_01
+      text: "Repetition of issue after handoff to another team"
+      keywords: ["had to explain again", "repeated myself", "told same story", "explained multiple times", "handoff lost info", "passed around", "no context", "again and again", "support didn't brief", "same questions repeatedly"]
+
+    - id: support_escalation_delayed_urgency_01
+      text: "Escalation delayed despite urgency"
+      keywords: ["needed escalation", "took too long", "delayed escalation", "not urgent enough?", "waiting for manager", "slow response", "why wasn’t this escalated", "no priority", "lag in escalation", "delay cost time"]
+
+    - id: support_escalation_tier1_failure_01
+      text: "Tier 1 support failed to escalate properly"
+      keywords: ["tier 1 didn’t help", "refused to escalate", "entry-level agent stuck", "basic support failure", "no escalation path", "didn’t escalate", "wrong triage", "not skilled enough", "problem ignored", "poor escalation judgment"]
+
+    - id: support_escalation_lost_context_01
+      text: "Escalated ticket lost context"
+      keywords: ["context lost", "details missing", "escalated but no background", "restarted conversation", "new agent had no clue", "escalation didn’t carry info", "had to explain again", "lost history", "ticket reset", "who read my issue?"]
+
+    - id: support_escalation_vip_routing_fail_01
+      text: "VIP user not routed to proper support"
+      keywords: ["VIP treatment missing", "enterprise user ignored", "priority support failed", "not routed properly", "special support skipped", "no dedicated rep", "customer success didn’t show up", "handled like basic user", "not white-glove", "missed SLA for VIP"]
+
+    - id: support_escalation_no_ownership_01
+      text: "No one took ownership post-escalation"
+      keywords: ["who’s handling this?", "no point of contact", "ticket orphaned", "ownership missing", "not assigned", "no lead", "confusion on responsibility", "nobody responded", "where’s my agent?", "handoff chaos"]
+
+    - id: support_escalation_manager_not_involved_01
+      text: "Manager wasn’t looped in during crisis"
+      keywords: ["no escalation to manager", "needed leadership", "supervisor not informed", "crisis mismanaged", "no senior involvement", "where’s the manager", "wasn’t taken seriously", "nobody took charge", "needed someone senior", "unhandled crisis"]
+
+    - id: support_escalation_blame_shifting_01
+      text: "Internal blame-shifting caused delays"
+      keywords: ["not our team", "talk to devs", "infra team’s fault", "pointing fingers", "blame game", "handoff politics", "who owns this?", "team not aligned", "ownership confusion", "delayed due to internal misfire"]
+
+    - id: support_escalation_bouncing_teams_01
+      text: "Support bounced issue between teams"
+      keywords: ["bounced around", "too many teams involved", "keep transferring", "handoff to another dept", "support loop", "no resolution", "circling departments", "wasting time", "back and forth", "support ping-pong"]
+
+    - id: support_escalation_denied_request_01
+      text: "Escalation requested but denied"
+      keywords: ["refused to escalate", "no escalation path", "denied request", "not authorized to escalate", "can’t speak to supervisor", "escalation blocked", "request ignored", "why can’t I escalate", "policy stopped escalation", "support gatekeeping"]
+ 
+    - id: support_tools_chat_crash_01
+      text: "Support chat tool crashed during session"
+      keywords: ["chat crashed", "session ended", "lost conversation", "chat froze", "support chat not working", "disconnected", "live chat failed", "lost mid-chat", "conversation dropped", "tool glitch"]
+
+    - id: support_tools_crm_sync_fail_01
+      text: "CRM data didn’t sync to ticketing system"
+      keywords: ["CRM not synced", "data mismatch", "customer info missing", "ticket missing data", "profile not loading", "CRM sync failed", "support saw wrong data", "old info used", "details didn’t carry over", "incorrect ticket data"]
+
+    - id: support_tools_internal_notes_exposed_01
+      text: "Internal notes shown to customer"
+      keywords: ["private note visible", "internal comment exposed", "agent note shown", "shouldn’t have seen that", "confidential info leak", "note visibility issue", "internal memo error", "customer saw backend note", "embarrassing note", "privacy breach"]
+
+    - id: support_tools_tags_macros_fail_01
+      text: "Tags/macros not working in tool"
+      keywords: ["macros broken", "tags not applying", "canned responses fail", "macro failed", "workflow issue", "rules not triggered", "template reply not working", "support shortcuts broken", "tool bug", "no automation"]
+
+    - id: support_tools_auto_routing_error_01
+      text: "Auto-routing sent ticket to wrong queue"
+      keywords: ["wrong team", "misrouted", "wrong agent", "ticket in wrong queue", "support not assigned properly", "routing rules fail", "ticket went elsewhere", "agent mismatch", "queue error", "routing misfire"]
+
+    - id: support_tools_chat_transcript_lost_01
+      text: "Chat transcript not saved correctly"
+      keywords: ["lost transcript", "chat log missing", "no history", "chat not recorded", "conversation lost", "support log error", "can’t find old chat", "missing session log", "no chat archive", "chat data gone"]
+
+    - id: support_tools_attachment_fail_01
+      text: "Attachments failed to upload"
+      keywords: ["file didn’t upload", "can’t attach", "upload error", "attachment blocked", "document won’t send", "screenshot missing", "support couldn’t see file", "upload failed", "file error", "tool not accepting files"]
+
+    - id: support_tools_dashboard_error_01
+      text: "Agent dashboard loading errors"
+      keywords: ["dashboard won’t load", "support UI stuck", "can’t open ticket", "agent panel not working", "interface lagging", "loading error", "dashboard glitch", "ticketing system down", "tool frozen", "backend slow"]
+
+    - id: support_tools_no_internal_escalation_01
+      text: "No way to escalate internally within tool"
+      keywords: ["can’t escalate", "no internal flag", "escalation not built in", "tool limitation", "no urgent tag", "can’t route to manager", "lack escalation path", "workflow block", "no senior route", "system lacks escalation"]
+
+    - id: support_tools_auto_logout_01
+      text: "Helpdesk system logged user out"
+      keywords: ["got logged out", "auto logout", "session expired", "lost progress", "support tool kicked me out", "ticket closed early", "timeout issue", "can’t stay logged in", "session reset", "system inactivity logout"]
+ 
+    - id: support_expectation_wrong_outcome_01
+      text: "Customer expected a different outcome"
+      keywords: ["not what I expected", "different result", "wrong output", "this isn’t what I thought", "unexpected behavior", "confusing results", "not as described", "expected better", "misaligned outcome", "product did something else"]
+
+    - id: support_expectation_trial_vs_paid_01
+      text: "Trial experience didn’t match paid version"
+      keywords: ["trial was better", "trial had feature", "missing after upgrade", "bait and switch", "trial vs paid mismatch", "promised feature missing", "lost access", "not same as trial", "why removed", "inconsistent experience"]
+
+    - id: support_expectation_features_not_live_01
+      text: "Onboarding promised features not yet live"
+      keywords: ["promised feature not there", "sales said it’s live", "expected in onboarding", "still waiting", "not yet available", "launch delayed", "coming soon issue", "was supposed to be ready", "promised during onboarding", "still in beta"]
+
+    - id: support_expectation_plan_limits_01
+      text: "Misunderstanding about plan limits"
+      keywords: ["plan doesn’t cover", "limit reached", "extra cost?", "wasn’t told", "this is paid?", "feature gated", "not in my plan", "I thought I had that", "what’s included?", "surprised by limit"]
+
+    - id: support_expectation_feature_confusion_01
+      text: "Customer thought feature worked differently"
+      keywords: ["how does this work?", "this should do X", "I assumed it worked this way", "expected different behavior", "why does it do that?", "not intuitive", "unexpected function", "wrong assumption", "I thought it would", "misunderstood usage"]
+
+    - id: support_expectation_overpromised_resolution_01
+      text: "Agent overpromised resolution timeline"
+      keywords: ["you said it’d be fixed", "still not done", "promised yesterday", "not resolved yet", "expected resolution", "agent said X hours", "was told it’s quick", "waiting too long", "missed ETA", "false timeline"]
+
+    - id: support_expectation_support_vs_sales_01
+      text: "Miscommunication between support and sales"
+      keywords: ["sales said it’s possible", "support says no", "mixed messaging", "sales promised", "conflict in information", "different answer from sales", "what sales told me", "wasn’t clear", "contradiction", "you told me different things"]
+
+    - id: support_expectation_disappointed_release_01
+      text: "Disappointment after feature release"
+      keywords: ["waited for this?", "underwhelming update", "release didn’t deliver", "expected more", "not what was promised", "product didn’t evolve", "launch disappointment", "this is the new version?", "minor changes only", "missed expectations"]
+
+    - id: support_expectation_help_doc_gap_01
+      text: "Help article didn’t match product behavior"
+      keywords: ["docs out of date", "help guide wrong", "steps don’t work", "tutorial mismatch", "article misled me", "not how it works", "misinformation in docs", "instructions failed", "help page incorrect", "confusing documentation"]
+
+    - id: support_expectation_refund_timing_01
+      text: "Customer expected refund faster than policy"
+      keywords: ["where’s my refund", "refund delay", "thought it’d be instant", "not yet received", "bank not credited", "expected faster return", "slow refund", "payment reversal late", "refund timeline not clear", "promised refund faster"]
+ 
+    - id: support_login_password_reset_fail_01
+      text: "User can’t log in after password reset"
+      keywords: ["password reset failed", "still can’t log in", "reset link not working", "new password rejected", "invalid credentials", "login loop", "reset issue", "password not accepted", "can't access", "trouble after reset"]
+
+    - id: support_login_2fa_broken_01
+      text: "2FA not working properly"
+      keywords: ["2FA code invalid", "can’t complete 2FA", "authenticator not working", "verification failed", "security code error", "blocked by 2FA", "can’t log in with 2FA", "SMS code not received", "two-factor broken", "MFA failed"]
+
+    - id: support_login_link_expired_01
+      text: "Login link expired before access"
+      keywords: ["expired login link", "magic link not working", "can’t click in time", "link timed out", "reset link expired", "login link invalid", "too late to log in", "access link failed", "link expired fast", "timeout link"]
+
+    - id: support_login_org_switch_fail_01
+      text: "Org switching not available in dashboard"
+      keywords: ["can’t switch orgs", "wrong workspace", "stuck in one org", "switching company failed", "dashboard doesn’t show other org", "no way to change org", "org dropdown missing", "org context wrong", "can’t access other account", "org view error"]
+
+    - id: support_login_sso_fail_01
+      text: "SSO configuration not working"
+      keywords: ["SSO failed", "login with SSO error", "single sign-on issue", "company login not working", "can’t log in via SSO", "SSO not configured properly", "SSO blocked access", "OAuth error", "SSO timeout", "SSO login not working"]
+
+    - id: support_login_account_locked_01
+      text: "Account locked after multiple login attempts"
+      keywords: ["too many attempts", "locked out", "account frozen", "security lock", "login blocked", "too many password tries", "can’t retry login", "temporary lockout", "login abuse detected", "account blocked"]
+
+    - id: support_login_invite_email_missing_01
+      text: "User not receiving invitation email"
+      keywords: ["invite email not received", "didn’t get email", "check spam didn’t work", "can’t join team", "invite not delivered", "email not sent", "invite link missing", "user never got invite", "email blocked", "can’t onboard user"]
+
+    - id: support_login_access_revoked_01
+      text: "Access revoked after upgrade"
+      keywords: ["lost access after upgrade", "plan change locked me out", "downgrade issue", "can’t access paid plan", "permissions reset", "account deactivated", "unexpected logout", "upgrade blocked access", "user removed", "account role lost"]
+
+    - id: support_login_timeout_strict_01
+      text: "Session timeout too aggressive"
+      keywords: ["logged out too fast", "session expired quickly", "timeout annoying", "auto logout problem", "idle time too low", "frequent logouts", "can’t stay logged in", "session end abrupt", "auto timeout issue", "login expires fast"]
+
+    - id: support_login_accounts_merged_wrong_01
+      text: "Multiple accounts merged incorrectly"
+      keywords: ["wrong account data", "two profiles merged", "lost info", "accounts mixed", "data from other user", "merge went wrong", "can’t separate accounts", "wrong email showing", "shared access error", "profile confusion"]
+ 
+    - id: support_billing_overcharged_01
+      text: "Customer charged incorrectly"
+      keywords: ["wrong charge", "overbilled", "extra charge", "incorrect invoice", "charged twice", "unexpected fee", "wrong pricing", "billing error", "incorrect amount", "unauthorized charge"]
+
+    - id: support_billing_refund_missing_01
+      text: "Refund delayed or missing"
+      keywords: ["refund not received", "where’s my refund", "refund delay", "money not returned", "waiting for refund", "refund promised", "still no refund", "payment reversal pending", "slow refund", "refund issue"]
+
+    - id: support_billing_card_declined_01
+      text: "Credit card declined unexpectedly"
+      keywords: ["card declined", "payment failed", "can’t pay", "billing error", "decline from bank", "credit card issue", "card not accepted", "transaction failed", "unable to charge", "invalid card"]
+
+    - id: support_billing_tax_id_missing_01
+      text: "Invoice missing tax ID"
+      keywords: ["tax ID not on invoice", "missing GST", "VAT not shown", "tax issue", "invoice incomplete", "compliance invoice", "legal invoice error", "no tax info", "company ID missing", "incorrect billing document"]
+
+    - id: support_billing_invoice_download_fail_01
+      text: "Customer unable to download invoice"
+      keywords: ["can’t download invoice", "invoice not available", "PDF won’t load", "billing portal broken", "can’t access receipts", "download failed", "invoice error", "no invoice history", "receipt missing", "document issue"]
+
+    - id: support_billing_promo_code_ignored_01
+      text: "Applied promo code not reflected"
+      keywords: ["discount not applied", "promo code failed", "coupon not working", "didn’t get offer", "full price charged", "promo didn’t apply", "pricing error", "code not recognized", "offer ignored", "discount missing"]
+
+    - id: support_billing_account_suspended_01
+      text: "Account suspended due to billing failure"
+      keywords: ["billing failure lockout", "account suspended", "payment failed", "can’t access product", "billing suspension", "account frozen", "service stopped", "due to billing", "locked for non-payment", "access revoked"]
+
+    - id: support_billing_plan_changed_unexpectedly_01
+      text: "Plan changed without confirmation"
+      keywords: ["unexpected downgrade", "plan changed", "auto-upgrade", "why did plan switch", "no confirmation", "billing plan error", "plan mismatch", "wrong tier", "forced upgrade", "subscription error"]
+
+    - id: support_billing_duplicate_invoices_01
+      text: "Multiple invoices for same billing cycle"
+      keywords: ["duplicate invoice", "charged twice", "same period billed again", "double billing", "repeated charge", "billing duplication", "cycle overlap", "double payment", "extra invoice", "same month billed twice"]
+
+    - id: support_billing_auto_renewed_01
+      text: "Subscription auto-renewed without notice"
+      keywords: ["auto-renewal surprise", "renewed without approval", "no reminder before renewal", "charged again", "subscription auto-renewed", "cancelled but billed", "didn’t know it renewed", "unwanted renewal", "renewal without consent", "surprised by renewal"]
+ 
+  success:
+
+    - id: success_onboarding_01
+      text: "Customer hasn’t completed onboarding"
+      keywords: ["incomplete onboarding", "onboarding stalled", "setup not done", "not onboarded", "no initial progress", "activation pending", "onboarding not finished", "implementation gap", "didn't launch", "unready account"]
+
+    - id: success_onboarding_02
+      text: "No engagement after kick-off call"
+      keywords: ["silent after kickoff", "no follow-up", "ghosted after call", "no progress", "low post-call engagement", "went cold", "no activity", "not logging in", "kickoff disengagement", "unresponsive after intro"]
+
+    - id: success_onboarding_03
+      text: "Setup takes longer than expected"
+      keywords: ["delayed implementation", "slow setup", "timeline slippage", "behind schedule", "onboarding delays", "late configuration", "prolonged rollout", "extended onboarding", "slow start", "missed deadlines"]
+
+    - id: success_onboarding_04
+      text: "Key stakeholders not involved early"
+      keywords: ["missing stakeholder", "no decision maker", "wrong contact", "no executive buy-in", "missing champion", "late stakeholder engagement", "incomplete team", "not enough context", "weak onboarding team", "unlooped stakeholder"]
+
+    - id: success_onboarding_05
+      text: "Customer team is confused about next steps"
+      keywords: ["lack of clarity", "next steps unclear", "onboarding confusion", "no direction", "unsure what to do", "lost in onboarding", "unstructured process", "no guided flow", "unclear checklist", "support not proactive"]
+
+    - id: success_onboarding_06
+      text: "Not using core product features"
+      keywords: ["feature neglect", "no usage", "key tools ignored", "low adoption", "critical features unused", "not using value areas", "missing product depth", "basic usage only", "avoiding complexity", "feature fatigue"]
+
+    - id: success_onboarding_07
+      text: "Onboarding checklist not tracked"
+      keywords: ["no tracking", "checklist missing", "no onboarding progress", "steps not documented", "unclear onboarding status", "task list absent", "onboarding flow broken", "missed onboarding items", "undocumented progress", "setup checklist gap"]
+
+    - id: success_onboarding_08
+      text: "Data import failed or incomplete"
+      keywords: ["import error", "data upload failed", "partial import", "sync failed", "missing data", "integration failure", "bad import format", "CSV not uploading", "data migration issue", "setup blocker"]
+
+    - id: success_onboarding_09
+      text: "Training sessions keep getting rescheduled"
+      keywords: ["missed training", "training delays", "rescheduled onboarding", "no show for training", "postponed sessions", "schedule conflicts", "training dropped", "training lag", "onboarding call moved", "education delayed"]
+
+    - id: success_onboarding_10
+      text: "No internal champion committed"
+      keywords: ["no champion", "missing advocate", "no internal owner", "no stakeholder accountability", "weak adoption driver", "no lead user", "no point person", "owner unassigned", "lack of sponsor", "unclear product lead"]
+
+    - id: success_adoption_01
+      text: "Only 1 or 2 users are active"
+      keywords: ["low user count", "minimal engagement", "few active users", "limited team adoption", "low license usage", "barely used", "no team rollout", "just one user", "no scale", "underused account"]
+
+    - id: success_adoption_02
+      text: "Team logs in but doesn’t take key actions"
+      keywords: ["no actions taken", "no conversions", "passive usage", "logged in but idle", "poor engagement", "not activating features", "incomplete sessions", "low intent behavior", "non-interactive", "logged in but not using"]
+
+    - id: success_adoption_03
+      text: "Features underutilized despite availability"
+      keywords: ["unused features", "feature neglect", "product gaps", "not using core tools", "low feature usage", "blind to functionality", "lack of discovery", "shallow usage", "available but not used", "feature awareness issue"]
+
+    - id: success_adoption_04
+      text: "Adoption plateaus after 30 days"
+      keywords: ["flat usage", "initial interest drop", "post-onboarding decline", "30-day fade", "trailing engagement", "no growth in use", "adoption stalled", "dropoff post trial", "momentum loss", "usage tapering"]
+
+    - id: success_adoption_05
+      text: "Customer forgot about new features"
+      keywords: ["feature launch ignored", "no comms follow-up", "low awareness", "new tools unnoticed", "product update missed", "feature fatigue", "forgotten release", "release adoption failure", "launch overlooked", "low email open rate"]
+
+    - id: success_adoption_06
+      text: "User activity trending downward"
+      keywords: ["usage declining", "falling engagement", "activity graph drop", "negative trend", "shrinking usage", "logins decreasing", "product fatigue", "saturation", "churn signals", "low stickiness"]
+
+    - id: success_adoption_07
+      text: "Product not embedded in workflow"
+      keywords: ["workflow misfit", "siloed usage", "low habit formation", "disconnected tool", "not part of process", "manual workaround", "not sticky", "tool switching", "low integration", "workflow mismatch"]
+
+    - id: success_adoption_08
+      text: "Multiple accounts created with poor coordination"
+      keywords: ["duplicate accounts", "fragmented setup", "bad user mapping", "no admin controls", "team not aligned", "no central account", "redundant users", "user chaos", "account confusion", "overlapping users"]
+
+    - id: success_adoption_09
+      text: "Departmental silos block usage"
+      keywords: ["no cross-team adoption", "team silos", "blocked by department", "non-collaborative usage", "no org-wide rollout", "limited access", "isolation", "internal blockers", "adoption gap", "siloed deployment"]
+
+    - id: success_adoption_10
+      text: "Self-serve tools aren’t being explored"
+      keywords: ["not using help center", "ignored walkthroughs", "no guide engagement", "tutorials skipped", "no self-onboarding", "underused resources", "education gap", "no learning journey", "low feature discovery", "tooltips ignored"]
+
+    - id: success_metrics_01
+      text: "Customer never defined a goal"
+      keywords: ["no goal set", "undefined success", "missing KPIs", "unclear targets", "no north star", "no defined objective", "customer unclear on outcomes", "vague expectations", "no end goal", "goal-setting skipped"]
+
+    - id: success_metrics_02
+      text: "CSM unsure how customer defines value"
+      keywords: ["value unclear", "no value framework", "how does this help?", "CSM flying blind", "no value agreement", "unclear success lens", "can't articulate value", "customer ROI undefined", "no win condition", "no definition of success"]
+
+    - id: success_metrics_03
+      text: "Customer asks 'what’s ROI?'"
+      keywords: ["what's the ROI?", "return unclear", "no ROI narrative", "value not evident", "impact not measurable", "ROI not tracked", "no business case", "customer doubts impact", "unclear payoff", "no cost-benefit clarity"]
+
+    - id: success_metrics_04
+      text: "No agreed timeline for results"
+      keywords: ["no delivery timeline", "when will we see value?", "timeframe missing", "results not timeboxed", "delayed outcomes", "goalpost moving", "uncertain delivery", "timeline slippage", "no time expectations", "customer unsure on timeline"]
+
+    - id: success_metrics_05
+      text: "Leadership unclear on progress"
+      keywords: ["execs not informed", "no leadership visibility", "stakeholder update missing", "no progress dashboard", "unclear value communication", "no briefing cadence", "customer team in dark", "leadership buy-in weak", "no reporting", "progress opaque"]
+
+    - id: success_metrics_06
+      text: "No usage dashboards set up"
+      keywords: ["no usage tracking", "missing analytics", "no insights", "dashboard not activated", "no monitoring", "engagement unmeasured", "data gap", "no usage view", "blind to adoption", "platform usage invisible"]
+
+    - id: success_metrics_07
+      text: "Business goals not tied to product metrics"
+      keywords: ["no metric alignment", "outcome not connected to product", "disconnected KPIs", "business vs product gap", "missing goal-metric link", "impact not measured", "no success mapping", "strategy misalignment", "customer metrics missing", "value untied to usage"]
+
+    - id: success_metrics_08
+      text: "Customer unclear on deliverables"
+      keywords: ["what are we getting?", "unclear outcomes", "no scope defined", "vague commitments", "no deliverable list", "uncertain value delivery", "timeline and output mismatch", "expected results unclear", "project scope drift", "what’s included?"]
+
+    - id: success_metrics_09
+      text: "Success criteria keeps shifting"
+      keywords: ["moving targets", "changing goals", "inconsistent KPIs", "success not stable", "customer keeps redefining success", "CSM can't lock targets", "re-scoping repeatedly", "metrics volatility", "unclear contract outcome", "customer changing the bar"]
+
+    - id: success_metrics_10
+      text: "Misalignment on expectations between teams"
+      keywords: ["internal alignment gap", "CS vs sales disconnect", "CSM vs customer mismatch", "sales overpromised", "onboarding misalignment", "expectation not shared", "different success definitions", "team not on same page", "CS frustrated", "mixed messages"]
+
+    - id: success_communication_01
+      text: "Emails not getting responses"
+      keywords: ["no reply", "emails ignored", "outreach unanswered", "follow-ups missed", "inbox silence", "customer not responding", "emails unopened", "poor response rate", "CSM ghosted", "no communication flow"]
+
+    - id: success_communication_02
+      text: "Champion slow to reply"
+      keywords: ["champion not replying", "slow feedback", "delayed updates", "CSM waiting", "communication lag", "key contact unresponsive", "response delay", "asynchronous feedback", "inconsistent contact", "customer not prioritizing"]
+
+    - id: success_communication_03
+      text: "Customer ghosted for weeks"
+      keywords: ["customer disappeared", "ghosted", "radio silence", "no contact in weeks", "dropped communication", "relationship dormant", "no updates", "CSM abandoned", "unreachable", "inactive account contact"]
+
+    - id: success_communication_04
+      text: "Meeting cadence not agreed upon"
+      keywords: ["no meeting schedule", "irregular calls", "check-ins inconsistent", "no recurring sync", "alignment off", "no calendar time", "communication not structured", "touchpoints missed", "lack of routine", "CSM not meeting regularly"]
+
+    - id: success_communication_05
+      text: "Miscommunication about renewal terms"
+      keywords: ["renewal confusion", "terms misunderstood", "billing surprise", "renewal date mismatch", "contract unclear", "renewal assumptions", "pricing misread", "payment cycle gap", "renewal not discussed", "renewal dispute"]
+
+    - id: success_communication_06
+      text: "New contacts unaware of prior conversations"
+      keywords: ["context lost", "handoff issue", "new stakeholder uninformed", "no continuity", "customer forgot history", "past conversations unknown", "CSM repeating info", "customer memory gap", "new point of contact unaware", "lost conversation thread"]
+
+    - id: success_communication_07
+      text: "CS team missed internal escalation"
+      keywords: ["escalation skipped", "CSM didn’t raise issue", "internal alert missed", "problem not flagged", "no one informed leadership", "late escalation", "missed escalation trigger", "no internal visibility", "support not looped in", "issue unnoticed internally"]
+
+    - id: success_communication_08
+      text: "Customer says 'nobody told us that'"
+      keywords: ["customer uninformed", "missing info", "lack of communication", "assumption failure", "expectation misalignment", "info gap", "not clearly stated", "onboarding gap", "delivery miscommunication", "surprised customer"]
+
+    - id: success_communication_09
+      text: "Support and Success gave conflicting advice"
+      keywords: ["mixed messages", "inconsistent support", "advice contradiction", "customer confused", "disjointed experience", "support vs CS conflict", "misaligned teams", "opposing guidance", "unclear direction", "cross-team mismatch"]
+
+    - id: success_communication_10
+      text: "Too many touchpoints from different teams"
+      keywords: ["overcommunication", "too many contacts", "customer overwhelmed", "multiple reps reaching out", "no single point of contact", "team overlap", "scattered communication", "CS and support redundancy", "customer annoyed", "coordination failure"]
+
+    - id: success_championchurn_01
+      text: "Champion left the company"
+      keywords: ["champion exited", "main contact left", "account owner gone", "lost internal advocate", "point of contact left", "handover missing", "champion churn", "CSM caught off guard", "new hire not onboarded", "relationship reset"]
+
+    - id: success_championchurn_02
+      text: "Org restructure paused everything"
+      keywords: ["reorg", "org changes", "team shuffled", "paused project", "customer in transition", "delayed rollout", "change in reporting", "on hold due to restructure", "org reset", "internal shakeup"]
+
+    - id: success_championchurn_03
+      text: "New stakeholder unfamiliar with product"
+      keywords: ["new contact onboard", "no context", "CSM needs to educate", "unaware of value", "needs retraining", "starting from scratch", "uninformed stakeholder", "fresh user", "reset relationship", "unfamiliar with implementation"]
+
+    - id: success_championchurn_04
+      text: "CS team not looped into change"
+      keywords: ["not informed of change", "CS out of loop", "handoff missed", "change not communicated", "relationship dropped", "customer restructured silently", "CSM caught off guard", "no update from client", "lack of coordination", "late discovery"]
+
+    - id: success_championchurn_05
+      text: "New team re-evaluating stack"
+      keywords: ["vendor re-evaluation", "tool audit", "stack cleanup", "risk of churn", "reviewing solutions", "renewal at risk", "platform reassessed", "contract under review", "tool rationalization", "new team deciding"]
+
+    - id: success_championchurn_06
+      text: "Change in leadership affects renewal"
+      keywords: ["new leadership", "exec switch", "renewal stalled", "new priorities", "C-suite changes", "decision shift", "budget reallocations", "contract risk", "renewal concern", "new head skeptical"]
+
+    - id: success_championchurn_07
+      text: "Budget owner no longer involved"
+      keywords: ["budget contact gone", "new finance head", "billing authority changed", "renewal delayed", "no budget signoff", "new approver", "old contact exited", "contract approval blocked", "ownership unclear", "CSM navigating finance"]
+
+    - id: success_championchurn_08
+      text: "Decision-maker changed post-onboarding"
+      keywords: ["exec handoff", "new sponsor", "influencer shifted", "post-onboarding change", "renewal risk", "onboarding lost context", "buy-in needs restart", "contract signer replaced", "leadership turnover", "new stakeholder review"]
+
+    - id: success_championchurn_09
+      text: "Team using old SOPs"
+      keywords: ["legacy process", "outdated workflows", "not using new features", "change resistance", "no training refresh", "pre-reorg SOP", "inefficient use", "poor adoption", "customer stuck in old habits", "CSM needs retraining push"]
+
+    - id: success_championchurn_10
+      text: "New contact wants to start from scratch"
+      keywords: ["reset requested", "fresh onboarding", "history dismissed", "wants new kickoff", "not reviewing past work", "clean slate", "timeline restart", "re-onboard needed", "new contact reset", "old progress ignored"]
+
+    - id: success_renewal_01
+      text: "No verbal or written commitment"
+      keywords: ["no commitment", "silent on renewal", "verbal nod missing", "contract unsigned", "uncertain renewal", "CSM unsure", "customer vague", "decision pending", "no written intent", "no verbal agreement"]
+
+    - id: success_renewal_02
+      text: "Budget conversations delayed"
+      keywords: ["budget not discussed", "delayed finance talk", "spending unclear", "funding on hold", "cost discussion skipped", "awaiting budget clarity", "renewal stalled", "no finance reply", "budget ambiguity", "renewal limbo"]
+
+    - id: success_renewal_03
+      text: "Renewal pushed to finance"
+      keywords: ["finance owns renewal", "handed off to finance", "not in team's hands", "renewal escalated", "no product team input", "procurement owns deal", "contract team looped in", "finance blocking", "external party reviewing", "renewal in review"]
+
+    - id: success_renewal_04
+      text: "No QBR scheduled before renewal"
+      keywords: ["missed QBR", "no quarterly review", "no strategic sync", "value not reviewed", "no renewal prep", "QBR gap", "late engagement", "renewal without review", "no success discussion", "missed milestone"]
+
+    - id: success_renewal_05
+      text: "Last renewal caused friction"
+      keywords: ["prior renewal issues", "bad experience", "renewal dispute", "customer burned", "contract tension", "pricing fight", "discount drama", "renewal trust issues", "strained negotiation", "past contract pain"]
+
+    - id: success_renewal_06
+      text: "Customer wants more time to evaluate"
+      keywords: ["evaluation extension", "needs more time", "delaying decision", "trial period ask", "reevaluation request", "waiting to decide", "still assessing", "not ready yet", "renewal pause", "timeline request"]
+
+    - id: success_renewal_07
+      text: "CS has no visibility into renewal stage"
+      keywords: ["CSM out of loop", "renewal unknown", "no contract status", "lacking pipeline insight", "no renewal forecast", "unclear stage", "sales not sharing", "renewal blind spot", "CSM flying blind", "missing renewal data"]
+
+    - id: success_renewal_08
+      text: "Leadership unsure if product is 'worth it'"
+      keywords: ["value questioned", "execs not convinced", "ROI debate", "worth unclear", "leadership skepticism", "budget scrutiny", "renewal challenged", "cost-benefit unclear", "senior doubt", "product under question"]
+
+    - id: success_renewal_09
+      text: "Procurement hasn’t replied"
+      keywords: ["procurement delay", "no PO raised", "awaiting approval", "procurement ghosted", "slow finance desk", "deal stalled", "contract not reviewed", "paperwork stuck", "legal not responding", "no procurement feedback"]
+
+    - id: success_renewal_10
+      text: "Expiry date approaching without usage proof"
+      keywords: ["no usage data", "value not tracked", "low engagement", "can’t prove ROI", "CSM lacks metrics", "inactive user base", "renewal risk", "no usage report", "expiry near", "zero usage justification"]
+
+    - id: success_expansion_01
+      text: "No roadmap to expansion"
+      keywords: ["no growth plan", "no expansion strategy", "future use unclear", "lack of expansion roadmap", "limited scope", "expansion not discussed", "stuck in pilot", "scaling undefined", "next phase unknown", "future value unclear"]
+
+    - id: success_expansion_02
+      text: "Low usage in current seats"
+      keywords: ["poor adoption", "underused seats", "inactive users", "low engagement", "usage drop", "current seats unused", "adoption lagging", "no seat ROI", "low login rate", "engagement weak"]
+
+    - id: success_expansion_03
+      text: "Champion hesitant to push expansion"
+      keywords: ["champion unsure", "hesitation to grow", "internal resistance", "advocate not ready", "pushback on upsell", "CSM blocked by champion", "no internal momentum", "lack of urgency", "no internal pitch", "champion risk-averse"]
+
+    - id: success_expansion_04
+      text: "Lack of results in current department"
+      keywords: ["no impact shown", "weak results", "ROI not proven", "KPIs not met", "value unclear", "underwhelming outcomes", "slow success", "not a win yet", "lack of evidence", "pilot underperformed"]
+
+    - id: success_expansion_05
+      text: "No use case for other teams"
+      keywords: ["limited applicability", "other departments not interested", "no cross-team fit", "unclear relevance", "not scalable use case", "function-specific only", "team-specific solution", "vertical locked", "no multi-team benefit", "no org-wide need"]
+
+    - id: success_expansion_06
+      text: "Expansion blocked by competitor tool"
+      keywords: ["existing tool in place", "incumbent competitor", "competing platform", "tool already used", "locked in with vendor", "internal loyalty to other product", "competitive resistance", "alternative preferred", "tool overlap", "contract conflict"]
+
+    - id: success_expansion_07
+      text: "Internal team doesn’t see reason to upgrade"
+      keywords: ["no perceived value", "status quo preferred", "satisfied with current setup", "no reason to change", "team happy with now", "upgrade not justified", "benefits unclear", "no upsell case", "no dissatisfaction", "not pushing upgrade"]
+
+    - id: success_expansion_08
+      text: "Pricing structure too complex"
+      keywords: ["confusing tiers", "hard to understand pricing", "complicated plan", "pricing not scalable", "quote confusion", "expansion pricing unclear", "seat vs usage confusion", "unpredictable cost", "pricing friction", "billing model blocker"]
+
+    - id: success_expansion_09
+      text: "Compliance review holding up cross-team rollout"
+      keywords: ["compliance delay", "security review pending", "data privacy check", "legal review blocker", "internal audit needed", "policy restriction", "GRC process slowing", "risk team holding", "trust barrier", "compliance evaluation pending"]
+
+    - id: success_expansion_10
+      text: "Renewal must happen before expansion"
+      keywords: ["renewal first", "no upsell pre-renewal", "contract must renew", "waiting for renewal", "renewal gating expansion", "can't expand yet", "renewal priority", "renewal bottleneck", "renew before upgrade", "deal sequencing issue"]
+
+    - id: success_productfit_01
+      text: "Feature request not on roadmap"
+      keywords: ["missing feature", "not planned", "roadmap delay", "no ETA", "future version unclear", "not prioritized", "feature denied", "lack of visibility", "no upcoming release", "roadmap blocker"]
+
+    - id: success_productfit_02
+      text: "Core workflow not supported"
+      keywords: ["missing workflow", "can't complete task", "process unsupported", "workflow broken", "no solution path", "user flow blocked", "critical step missing", "workflow misalignment", "process gap", "unmet need"]
+
+    - id: success_productfit_03
+      text: "Customer workaround causing frustration"
+      keywords: ["temporary hack", "manual workaround", "inefficient process", "frustrating fix", "non-standard process", "not scalable", "quick fix pain", "workflow band-aid", "inelegant solution", "causing errors"]
+
+    - id: success_productfit_04
+      text: "Product doesn’t support use case fully"
+      keywords: ["partial fit", "missing capability", "incomplete use case", "not covering scenario", "solution gap", "use case mismatch", "workflow unsupported", "customer goal unmet", "product not ready", "functional gap"]
+
+    - id: success_productfit_05
+      text: "Security/compliance gaps"
+      keywords: ["compliance concern", "security blocker", "data risk", "infosec not satisfied", "SOC2/GDPR gap", "risk team flagged", "data protection issue", "privacy standards unmet", "cybersecurity concern", "compliance failure"]
+
+    - id: success_productfit_06
+      text: "Missing integration blocking rollout"
+      keywords: ["integration missing", "tool not connected", "API not available", "system not syncing", "blocker in tech stack", "platform not supported", "no plugin", "rollout delayed", "integration gap", "interoperability issue"]
+
+    - id: success_productfit_07
+      text: "Interface too complex for users"
+      keywords: ["steep learning curve", "not user friendly", "too many clicks", "complicated UI", "hard to navigate", "UX issue", "non-intuitive flow", "design complexity", "overwhelming layout", "confusing experience"]
+
+    - id: success_productfit_08
+      text: "Customer says 'not intuitive'"
+      keywords: ["hard to use", "needs training", "not obvious", "counterintuitive", "learning barrier", "unclear flow", "intuitiveness low", "usage friction", "usability complaint", "customer confusion"]
+
+    - id: success_productfit_09
+      text: "Doesn’t work well with mobile devices"
+      keywords: ["mobile issues", "not responsive", "mobile bugs", "poor mobile UX", "app not optimized", "tablet problems", "mobile rendering error", "mobile layout broken", "small screen problems", "on-the-go usage pain"]
+
+    - id: success_productfit_10
+      text: "Support unable to offer workaround"
+      keywords: ["no workaround", "support blocked", "no temporary fix", "solution unavailable", "ticket unresolved", "support team helpless", "escalation failed", "no plan B", "blocked by limitation", "fix not possible"]
+
+    - id: success_risksignal_01
+      text: "Decreased login activity"
+      keywords: ["low activity", "fewer logins", "inactive users", "reduced engagement", "login drop", "user disengagement", "adoption declining", "no usage signals", "platform avoidance", "silent account"]
+
+    - id: success_risksignal_02
+      text: "Negative NPS or CSAT"
+      keywords: ["bad feedback", "low score", "unhappy user", "negative rating", "detractor response", "CSAT drop", "NPS decline", "satisfaction issue", "sentiment red flag", "poor user sentiment"]
+
+    - id: success_risksignal_03
+      text: "Missed check-in calls"
+      keywords: ["no-show", "ignored calendar invite", "check-in skipped", "missed meeting", "avoidance behavior", "silence on schedule", "meeting avoidance", "decline to join", "cancelled call", "radio silence"]
+
+    - id: success_risksignal_04
+      text: "Support ticket volume rising"
+      keywords: ["frequent issues", "many tickets", "spike in support", "support overload", "increased complaints", "multiple problems", "trouble reports rising", "ticket surge", "customer frustration", "problem-heavy account"]
+
+    - id: success_risksignal_05
+      text: "Refused a QBR"
+      keywords: ["declined QBR", "no interest in review", "skipped quarterly call", "avoided roadmap talk", "resists engagement", "opted out of QBR", "doesn’t see value", "QBR rejection", "missed strategy call", "pushback on QBR"]
+
+    - id: success_risksignal_06
+      text: "Disengagement from Slack/community"
+      keywords: ["no Slack interaction", "community quiet", "silent in forum", "stopped participating", "not active in group", "no chatter", "no public feedback", "disengaged user base", "quiet customer", "community dropoff"]
+
+    - id: success_risksignal_07
+      text: "Late to respond to renewal quote"
+      keywords: ["quote ignored", "renewal delay", "no reply to pricing", "slow renewal cycle", "no urgency", "quote ghosting", "renewal stall", "invoicing ignored", "silent on renewal", "hesitant to renew"]
+
+    - id: success_risksignal_08
+      text: "Ghosting after incident/outage"
+      keywords: ["no follow-up", "post-incident silence", "left after downtime", "ghosted after problem", "avoidance after error", "customer MIA", "support ignored", "bad experience fallout", "loss after failure", "trust broken"]
+
+    - id: success_risksignal_09
+      text: "Sharing competitor content on social"
+      keywords: ["engaging competitors", "likes rival posts", "comments on competitor", "competitor mention", "platform comparison", "evaluating alternatives", "external validation seeking", "switch signals", "competitive interest", "attention shift"]
+
+    - id: success_risksignal_10
+      text: "Not opening product update emails"
+      keywords: ["update ignored", "emails unopened", "low open rate", "newsletters skipped", "feature update not read", "no interest in updates", "release email bounce", "non-responsive user", "product news ignored", "email disinterest"]
+
+    - id: success_feedbackstress_01
+      text: "Customer says 'we’re not happy'"
+      keywords: ["not happy", "disappointed", "unsatisfied", "frustrated", "losing patience", "not working out", "relationship strained", "unhappy with service", "dissatisfied", "expressed frustration"]
+
+    - id: success_feedbackstress_02
+      text: "Strong feature complaints during QBR"
+      keywords: ["feature complaints", "QBR tension", "critical feedback", "QBR went badly", "product gaps raised", "wishlist overload", "QBR frustration", "negative roadmap talk", "customer angry in QBR", "product not meeting needs"]
+
+    - id: success_feedbackstress_03
+      text: "Executive escalated support issue"
+      keywords: ["exec involved", "escalated to leadership", "CEO emailed", "VP angry", "escalation from exec", "management frustration", "brought to the top", "critical issue raised", "urgent executive concern", "escalated incident"]
+
+    - id: success_feedbackstress_04
+      text: "CSM blamed for product limitations"
+      keywords: ["blamed CSM", "why didn’t you tell us", "you should’ve known", "pointing fingers", "held responsible", "unfair expectation", "CSM blamed", "client frustration with rep", "anger misdirected", "caught in crossfire"]
+
+    - id: success_feedbackstress_05
+      text: "Feedback not acknowledged by product"
+      keywords: ["ignored feedback", "no response from product", "not prioritized", "feedback loop broken", "CSM left hanging", "nothing changed", "suggestions ignored", "no action on requests", "stuck in backlog", "zero visibility"]
+
+    - id: success_feedbackstress_06
+      text: "Feeling pressure to escalate everything"
+      keywords: ["always escalate", "no direct resolution", "can't solve internally", "forced escalation", "customer won’t accept no", "escalation dependency", "escalation expected", "support not empowered", "high-touch anxiety", "stress from bottlenecks"]
+
+    - id: success_feedbackstress_07
+      text: "Suggestions go into a 'black box'"
+      keywords: ["feedback black hole", "no follow-up", "lost in system", "no transparency", "sent but forgotten", "radio silence", "what happened to our request", "zero product response", "feedback lost", "unclear next steps"]
+
+    - id: success_feedbackstress_08
+      text: "Backlash on a feature sunset"
+      keywords: ["angry over removal", "sunset backlash", "lost feature", "we used that", "retired feature issues", "feature gone", "product regression", "negative reaction", "critical feature removed", "surprised by sunset"]
+
+    - id: success_feedbackstress_09
+      text: "Survey comments with strong negativity"
+      keywords: ["bad CSAT", "negative comment", "angry survey", "poor feedback", "low score", "harsh wording", "survey frustration", "negative tone", "customer venting", "feedback sting"]
+
+    - id: success_feedbackstress_10
+      text: "CSM caught off-guard by public complaint"
+      keywords: ["surprised complaint", "Twitter rant", "LinkedIn callout", "public issue", "wasn’t aware", "PR issue", "reputation risk", "social media backlash", "no warning", "CSM blindsided"]
