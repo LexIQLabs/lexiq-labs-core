@@ -14,7 +14,7 @@ import requests
 
 GEMINI_ENDPOINT = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-1.5-flash:generateContent"
+    "gemini-2.5-flash:generateContent"
 )
 
 
@@ -125,3 +125,4 @@ def apply_voice_constraints(
 
     response_contract["voice_constraints"] = voice_profile
     return response_contract
+
