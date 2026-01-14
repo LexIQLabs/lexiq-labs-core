@@ -15,7 +15,7 @@ from typing import Dict, Optional
 
 GEMINI_ENDPOINT = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-1.5-flash:generateContent"
+    "gemini-2.5-flash:generateContent"
 )
 
 
@@ -114,3 +114,4 @@ Write a single, natural response that satisfies all of the above.
 Do not label sections.
 Do not mention analysis.
 """.strip()
+
