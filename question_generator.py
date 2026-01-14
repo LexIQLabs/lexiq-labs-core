@@ -15,7 +15,7 @@ from typing import List
 
 GEMINI_ENDPOINT = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-1.5-flash:generateContent"
+    "gemini-2.5-flash:generateContent"
 )
 
 
@@ -116,3 +116,4 @@ def filter_questions(questions: List[str]) -> List[str]:
             break
 
     return filtered
+
