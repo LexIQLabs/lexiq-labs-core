@@ -6,7 +6,7 @@ import re
 from typing import Optional
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-GEMINI_MODEL = "gemini-1.5-flash"
+GEMINI_MODEL = "gemini-2.5-flash"
 
 GEMINI_ENDPOINT = (
     f"https://generativelanguage.googleapis.com/v1beta/models/"
@@ -121,3 +121,4 @@ def refine_instruction(
     except Exception as e:
         print("[Gemini Refiner] Exception:", str(e))
         return None
+
